@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #E8F9E9;
+}
+h1{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4B0082;
+    font-size: 3.25rem;
+}
+.choice,.msgcontainer{
+    margin-top: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+}
+button{
+    height: 8.5rem;
+    width: 8.5rem;
+    border-radius: 3.5rem;
+    border: none;
+    background-color: #D6FF79;
+    color: #A09BE7;
+    font-size: 1.25rem;
+}
+#rock{
+    background-image: url("rock.png");
+    background-size: cover;
+}
+#rock:hover{
+    opacity: 0.90;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px solid #313638;
+}
+#paper{
+    background-image: url("paper.png");
+    background-size: cover;
+}
+#paper:hover{
+    opacity: 0.90;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px solid #313638;
+}
+#scissor{
+    background-image: url("scissors.png");
+    background-size: cover;
+}
+#scissor:hover{
+    opacity: 0.90;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px solid #313638;
+}
+.guidebtn{
+    height: 3rem;
+    width: 19rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+.score{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 4rem; 
+    color: #4B0082;
+    font-family: "Bitcount Single Ink", sans-serif;
+    font-weight: 600;
+}
+#userscore,#compscore{
+    font-weight: 700;
+} 
+.msg{
+    border:3px solid #313638;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    background-color: #A09BE7;
+    color:#333333;
+    align-items: center;
+    font-size: larger;
+}
